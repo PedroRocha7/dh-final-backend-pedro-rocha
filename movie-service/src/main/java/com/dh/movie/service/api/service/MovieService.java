@@ -39,7 +39,7 @@ public class MovieService {
 
     @RabbitListener(queues = "${queue.movie.name}")
     public Movie saveMovie(Movie movie){
-        LOG.info("Saving new movie on RabbitMQ " + movie.toString());
+        LOG.info("Saving new movie...");
         return movieRepository.save(movie);
     }
 

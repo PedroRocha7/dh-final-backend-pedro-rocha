@@ -21,7 +21,7 @@ cd gateway-server/
 sh make.sh
 cd ..
 
-cd serie-service/
+cd series-service/
 sh make.sh
 cd ..
 
